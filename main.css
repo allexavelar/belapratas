@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p,
+label {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (min-width: 320px) {
+
+    .bp-logo {
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        border-radius: 50%;
+        margin: 18px 20px 15px 20px;
+        background-color: #fff;
+
+    }
+
+    .bp-topbar {
+        width: 100%;
+        height: 100px;
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #D88FF2;
+
+    }
+
+    .bp-btn-menu-open {
+        width: 60px;
+        height: 60px;
+        float: right;
+        border-radius: 10px;
+        border: none;
+        margin: 18px 20px 15px 20px;
+        background-color: #D88FF2;
+    }
+
+
+    ion-icon {
+        font-size: 55px;
+        color: #fff;
+    }
+
+    .bp-menu-mob {
+        width: 200px;
+        height: 100vh;
+        display: block;
+        /* display: none; */
+        background-color: #E069DB;
+        position: fixed;
+        right: 0;
+        top: 0;
+        padding: 100px 30px 30px;
+        border: box;
+        box-shadow: 3px 3px 30px #444444;
+        z-index: 1200;
+
+    }
+
+    .bp-menu-mob a {
+        width: 100%;
+        height: 60px;
+        display: block;
+        line-height: 60px;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        text-decoration: none;
+        text-shadow: 5px 5px 15px #444444;
+
+    }
+
+    .bp-btn-menu-close {
+        width: 45px;
+        height: 45px;
+        display: block;
+        border-radius: 50%;
+        border: none;
+        background-color: #D88FF2;
+        color: #fff;
+        text-align: center;
+        position: fixed;
+        right: 30px;
+        top: 30px;
+        z-index: 1250;
+        cursor: pointer;
+    }
+
+    .bp-text-ads {
+        width: 100%;
+        height: 30px;
+        display: block;
+        background-color: #F262FF;
+        color: #fff;
+        font-size: 14px;
+        left: 0px;
+        top: 128px;
+
+        background: #F262FF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+
+
+}
